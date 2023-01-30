@@ -159,3 +159,9 @@ publicado sob o nome Quarto de Despejo, com auxílio do jornalista Audálio Dant
   console.log(biografias);
 
 }
+
+for (var bio in biografias) {
+  console.log(
+    bio +=" " + "Nome: " + biografias
+  )
+}
